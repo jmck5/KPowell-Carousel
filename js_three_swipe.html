@@ -1,0 +1,42 @@
+<!doctype html>
+<head>
+<title>
+    Carousel
+    
+</title>
+<meta charset="UTF-8">
+
+<link href="jomac.css" rel="Stylesheet" type="text/css">
+<link href="swipev2.css" rel="Stylesheet" type="text/css">
+
+</head>
+<body>
+
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden"><img src="pics/right.svg"></button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img src="pics/a.jpg" alt="" class="carousel__image">
+                </li>
+                <li class="carousel__slide">
+                    <img src="pics/b.jpg" alt="" class="carousel__image">
+                </li>
+                <li class="carousel__slide">
+                    <img src="pics/c.jpg" alt="" class="carousel__image"> 
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button carousel__button--right"><img src="pics/right.svg"></button>
+
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+
+    </div>
+    <script src="swipe_v2.js" type="text/javascript"></script>
+</body>
+
+<html>
